@@ -1,0 +1,56 @@
+---
+title: "Proposal"
+author: "Kyle"
+date: "November 22, 2014"
+output: html_document
+---
+
+
+
+
+
+Predicting Click-Through Rates on Display Ads: An Ensemble Learning Method Approach
+=====
+
+Project idea
+=====
+
+Predictive modeling for business prompts the necessity for accurate, precise, and flexible learning methods. For dealing with very large datasets in both number of observations and dimensionality, it is prudent to seek a set of models that are robust to the inherent messiness of real data. We seek to compare the performance of a set of ensemble methods for their efficacy in predicting click-through rates on display ads. We will focus on three ensemble learning methods: Random Forests, Bayesian Additive Regression Trees (BART), and Adaptive Boosting. These three methods represent three distinct contributions to supervised learning methods in general. 
+
+1. Random Forests (Breiman, 2001) represents a departure from the common usage of bagging (bootstrap-aggregating), in that it averages a large set of relatively uncorrelated tree models. 
+
+2. Bayesian Additive Regression Trees (BART) (Chipman, George, and McCulloch, 2010) is a non-parametric bayesian learning approach that provides full posterior inference and prediction. It is a flexible ensemble of weak regularized regression trees, and may also be used for variable selection in an adaptive way. 
+
+3. Adaptive Boosting is another ensemble learning method that represents an application of the Forward Stagewise Additive Modeling technique, in which a model is tuned and fitted by sequentially solving for optimal basis functions for each feature under the so-called exponential loss.
+
+The focus of this project will be two-fold; Firstly, we will investigate the “usefulness” of each of the preceding methods. Secondly, we will apply each of these methods to our sample dataset, and attempt to provide better predictive models with respective to the log-loss metric, and the benchmark model initially given in the Kaggle competition. 
+
+
+Papers to read
+=====
+
+Useful references for our project will include the following:
+
+Collins, Michael, Robert E. Schapire, and Yoram Singer. "Logistic regression, AdaBoost and Bregman distances." Machine Learning 48.1-3 (2002): 253-285.
+
+Hastie, Trevor, et al. The elements of statistical learning. Vol. 2. No. 1. New York: Springer, 2009.
+
+Duda, Richard O., Peter E. Hart, and David G. Stork. Pattern classification. John Wiley & Sons,, 1999.
+
+Chipman, Hugh A., Edward I. George, and Robert E. McCulloch. "BART: Bayesian additive regression trees." The Annals of Applied Statistics 4.1 (2010): 266-298.
+
+We will likely find more useful resources as we continue through this project 
+
+Timeline 
+=====
+ < November 24th - Project Proposal submitted
+
+December 1st - Exploratory data analysis/data augmentation/data cleaning completed
+
+December 4th - Tentative model/results completed
+
+December 8th - Midway report
+
+December 12th - Finishing touches
+
+December 18th - Finished report

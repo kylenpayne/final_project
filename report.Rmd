@@ -1,0 +1,25 @@
+---
+title: "Project Report and Notes"
+output: html_document
+---
+
+
+Introduction
+=====
+
+Hi!, this is the document that we can work on concurrently with the project reports in order to keep track of the work that we are doing. I suggest that we make good use of this reporting to layout the framework of our final project report while we work on it.
+
+
+We can start off by talking about the kind of methods we want to explore. I would like to focus on a host of ensemble methods. I suggest we focus on Random Forests, Bayesian Additive Regression Trees (BART), and Gradient Boosting (GBA). 
+
+Here's a long, probably useless summary of the subset of the data we are using.
+
+```{r}
+summary(train_subset)
+```
+
+```{r}
+
+
+
+```
